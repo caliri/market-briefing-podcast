@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Private Market Briefing</title>
+    <description>Daily market briefing</description>
+    <link>https://lcaliri.github.io/market-briefing-podcast/</link>
+
+    <item>
+      <title>Test Episode</title>
+      <description>Test briefing</description>
+      <enclosure 
+        url="https://YOUR_AUDIO_LINK.mp3"
+        length="123456"
+        type="audio/mpeg"/>
+      <pubDate>Fri, 26 Apr 2026 07:00:00 EST</pubDate>
+      <guid>test-1</guid>
+    </item>
+
+  </channel>
+</rss>
