@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
   <channel>
     <title>Private Market Briefing</title>
-    <description>Daily market briefing</description>
     <link>https://caliri.github.io/market-briefing-podcast/</link>
+    <description>Daily private market briefing.</description>
+    <language>en-us</language>
+    <itunes:author>Private</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Business">
+      <itunes:category text="Investing"/>
+    </itunes:category>
 
     <item>
-      <title>Test Episode</title>
-      <description>Test briefing</description>
-      <enclosure 
-        url="https://YOUR_AUDIO_LINK.mp3"
-        length="123456"
+      <title>Friday Morning Market Briefing</title>
+      <description>Sample equity volatility market briefing.</description>
+      <pubDate>Fri, 24 Apr 2026 07:00:00 -0400</pubDate>
+      <guid isPermaLink="false">friday-briefing-001</guid>
+      <enclosure
+        url="https://YOUR_USERNAME.github.io/market-briefing-podcast/test-episode.mp3"
+        length="1234567"
         type="audio/mpeg"/>
-      <pubDate>Fri, 26 Apr 2026 07:00:00 EST</pubDate>
-      <guid>test-1</guid>
     </item>
 
   </channel>
